@@ -1,4 +1,4 @@
-# OpenResty App Template
+# OpenResty App 
 
 Let's complete a quick hands-on exercise to install OpenResty App on your machine.
 
