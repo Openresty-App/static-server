@@ -1,6 +1,6 @@
 # OpenResty App 
 
-Let's complete a quick hands-on exercise to install OpenResty App on your machine.
+Serving static content
 
 ## Depend
 
@@ -20,15 +20,16 @@ cd static-server
 ## Test
 
 ```lang=shell
-[root@localhost static-server]# curl -i http://127.0.0.1:10085/
+[root@vagrant static-server]# curl -i http://127.0.0.1:10085/robots.txt
 HTTP/1.1 200 OK
-Server: openresty/1.13.6.1
-Date: Fri, 08 Dec 2017 22:23:13 GMT
+Server: openresty/1.11.2.4
+Date: Wed, 03 Jan 2018 09:33:37 GMT
 Content-Type: text/plain
-Transfer-Encoding: chunked
+Content-Length: 25
 Connection: keep-alive
 
-User-agent: *\nDisallow: /
+User-agent: *
+Disallow: /
 ```
 
 # nginx-app.conf
